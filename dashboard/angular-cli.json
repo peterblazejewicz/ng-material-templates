@@ -18,6 +18,7 @@
       "mobile": false,
       "styles": [
         "../node_modules/material-design-lite/dist/material.cyan-light_blue.min.css",
+        "../node_modules/material-design-icons/iconfont/material-icons.css",
         "styles.css"
       ],
       "scripts": [
