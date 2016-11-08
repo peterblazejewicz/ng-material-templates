@@ -14,7 +14,7 @@
       "main": "main.ts",
       "test": "test.ts",
       "tsconfig": "tsconfig.json",
-      "prefix": "app",
+      "prefix": "dashboard",
       "mobile": false,
       "styles": [
         "../node_modules/material-design-lite/dist/material.cyan-light_blue.min.css",
