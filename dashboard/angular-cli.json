@@ -17,9 +17,8 @@
       "prefix": "dashboard",
       "mobile": false,
       "styles": [
-        "../node_modules/material-design-lite/dist/material.cyan-light_blue.min.css",
         "../node_modules/material-design-icons/iconfont/material-icons.css",
-        "styles.css"
+        "styles.scss"
       ],
       "scripts": [
         "../node_modules/material-design-lite/dist/material.js"
@@ -44,7 +43,7 @@
     }
   },
   "defaults": {
-    "styleExt": "css",
+    "styleExt": "scss",
     "prefixInterfaces": false,
     "inline": {
       "style": false,
