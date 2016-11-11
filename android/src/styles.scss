@@ -125,6 +125,11 @@ a img{
       border-bottom: 4px solid #8bc34a;
     }
 
+    .android-navigation .mdl-navigation__link--current {
+      border-bottom: 4px solid lighten( #8bc34a, 20%)
+    }
+
+
   .android-search-box {
     -webkit-order: 2;
         -ms-flex-order: 2;

@@ -21,6 +21,13 @@ import { HomeComponent } from './home/home.component';
     RouterModule.forRoot([
       { path: '', component: HomeComponent  },
       { path: 'home', redirectTo: '/' },
+      { path: 'phones', component: HomeComponent },
+      { path: 'tables', component: HomeComponent },
+      { path: 'wear', component: HomeComponent },
+      { path: 'tv', component: HomeComponent },
+      { path: 'auto', component: HomeComponent },
+      { path: 'one', component: HomeComponent },
+      { path: 'play', component: HomeComponent },
       { path: '**', component: HomeComponent }
     ])
   ],
