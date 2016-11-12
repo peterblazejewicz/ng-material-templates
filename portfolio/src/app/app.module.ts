@@ -10,6 +10,7 @@ import { BlogComponent } from './blog/blog.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { ExampleComponent } from './example/example.component';
+import { MdlDirective } from './mdl.directive';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ExampleComponent } from './example/example.component';
     BlogComponent,
     AboutComponent,
     ContactComponent,
-    ExampleComponent
+    ExampleComponent,
+    MdlDirective
   ],
   imports: [
     BrowserModule,
