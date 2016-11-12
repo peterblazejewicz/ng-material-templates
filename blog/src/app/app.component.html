@@ -1,3 +1,25 @@
-<h1>
-  {{title}}
-</h1>
+<div class="demo-blog mdl-layout mdl-js-layout has-drawer is-upgraded">
+  <main class="mdl-layout__content">
+    <router-outlet></router-outlet>
+    <footer class="mdl-mini-footer">
+      <div class="mdl-mini-footer--left-section">
+        <button class="mdl-mini-footer--social-btn social-btn social-btn__twitter">
+              <span class="visuallyhidden">Twitter</span>
+            </button>
+        <button class="mdl-mini-footer--social-btn social-btn social-btn__blogger">
+              <span class="visuallyhidden">Facebook</span>
+            </button>
+        <button class="mdl-mini-footer--social-btn social-btn social-btn__gplus">
+              <span class="visuallyhidden">Google Plus</span>
+            </button>
+      </div>
+      <div class="mdl-mini-footer--right-section">
+        <button class="mdl-mini-footer--social-btn social-btn__share">
+              <i class="material-icons" role="presentation">share</i>
+              <span class="visuallyhidden">share</span>
+            </button>
+      </div>
+    </footer>
+  </main>
+</div>
+<a href="https://github.com/google/material-design-lite/blob/mdl-1.x/templates/blog/" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--white">View Source</a>
