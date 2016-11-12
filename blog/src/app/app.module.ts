@@ -7,12 +7,14 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { EntryComponent } from './entry/entry.component';
+import { MdlDirective } from './mdl.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    EntryComponent
+    EntryComponent,
+    MdlDirective
   ],
   imports: [
     BrowserModule,
