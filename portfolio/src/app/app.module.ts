@@ -11,6 +11,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { ExampleComponent } from './example/example.component';
 import { MdlDirective } from './mdl.directive';
+import { PorfolioCardComponent } from './porfolio-card/porfolio-card.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MdlDirective } from './mdl.directive';
     AboutComponent,
     ContactComponent,
     ExampleComponent,
-    MdlDirective
+    MdlDirective,
+    PorfolioCardComponent
   ],
   imports: [
     BrowserModule,
