@@ -13,6 +13,7 @@ import { ContactComponent } from './contact/contact.component';
 import { ExampleComponent } from './example/example.component';
 import { MdlDirective } from './mdl.directive';
 import { PorfolioCardComponent } from './porfolio-card/porfolio-card.component';
+import { PortfolioService } from './portfolio.service';
 import { InMemoryPortfolioService } from './in-memory-portfolio.service';
 
 @NgModule({
@@ -43,7 +44,9 @@ import { InMemoryPortfolioService } from './in-memory-portfolio.service';
       { path: '**', redirectTo: 'portfolio' }
     ])
   ],
-  providers: [],
+  providers: [
+    PortfolioService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
