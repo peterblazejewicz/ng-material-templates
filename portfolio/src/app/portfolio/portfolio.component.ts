@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { PortfolioService } from '../portfolio.service';
+import { Portfolio } from './portfolio';
+import 'rxjs/add/observable/of';
+import 'rxjs/add/observable/throw';
 
 @Component({
   selector: 'app-portfolio',
@@ -7,9 +11,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PortfolioComponent implements OnInit {
 
-  constructor() { }
+  private portfolios: Portfolio[];
+  private error: any;
+  constructor(private portfolioService: PortfolioService) { }
 
   ngOnInit() {
+    this.portfolioService
+      .getAll()
+      .subscribe(
+      portfolios => {
+        this.portfolios = portfolios;
+      },
+      error => {
+        this.error = error;
+      }
+      );
   }
 
 }
