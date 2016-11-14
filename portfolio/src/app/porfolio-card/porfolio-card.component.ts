@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Portfolio } from '../portfolio/portfolio';
 
 @Component({
   selector: 'app-porfolio-card',
@@ -7,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PorfolioCardComponent implements OnInit {
 
-  constructor() { }
+
+  @Input()
+  portfolio: Portfolio;
 
   ngOnInit() {
   }

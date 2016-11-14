@@ -1,4 +1,6 @@
 <div portfolio-mdl class="mdl-grid portfolio-max-width">
   <!-- cards -->
-
+  <app-porfolio-card *ngFor="let portfolio of portfolios"
+    [portfolio]="portfolio" class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+  </app-porfolio-card>
 </div>
